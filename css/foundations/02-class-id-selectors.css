@@ -1,0 +1,19 @@
+p:nth-child(odd) {
+  background-color: rgb(255, 167, 167);
+  font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+div:first-of-type {
+  font-size: 36px;
+  color: blue;
+}
+
+div:last-of-type {
+  background-color: rgb(128, 255, 128);
+  font-size: 24px;
+  font-weight: bold;
+}
+
+p:nth-of-type(2) {
+  font-size: 24px;
+}
